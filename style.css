@@ -1,0 +1,37 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background: black;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+#btn{
+    font-size: medium;
+    margin: auto;
+    position: absolute;
+    top: 100px;
+    left: 48%;
+    padding: 10px 25px;
+    background-color: azure;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#btn:active {
+    transform: scale(0.98);
+}
+#btn:focus{
+    outline: 0;
+}
+.container{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 30px;
+    color: azure;
+    font-weight: bolder;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    font-size: 100px;
+    white-space: nowrap;
+}
